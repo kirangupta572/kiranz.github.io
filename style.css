@@ -59,7 +59,7 @@ a:hover{
     padding-right: 300px;
 }
 h1{
-    font-size: 60px;
+    font-size: 35px;
     padding-top: 25px;
 }
 .p{
@@ -79,7 +79,7 @@ span{
 #about{
     background-color: #212121;
     height: 100%;
-    padding:130px 80px 80px 80px;
+    padding:145px 80px 80px 80px;
     
 }
 
@@ -110,7 +110,7 @@ img.about-main{
 }
 .card{
     width: 45%;
-    padding: 30px;
+    padding: 20px;
     display: block;
     background: #fff;
     color: black;
@@ -131,7 +131,7 @@ img.about-main{
 #service{
     background-color: #212121;
     height: 580px;
-    padding:140px 80px 550px 80px;
+    padding:100px 80px 550px 80px;
     text-align: center;
 }
 .row{
@@ -165,8 +165,8 @@ img.about-main{
 /* contact-me */
 #contact-me{
     background-color: #212121;
-    height: 750px;
-    padding:100px 80px 60px 80px;
+    height: 630px;
+    padding:90px 80px 60px 80px;
     text-align: center;
 }
 .contact-form{
@@ -193,7 +193,7 @@ img.about-main{
 .contact-main{
     justify-content: center;
     display: flex;
-    padding-top: 60px;
+    padding-top: 10px;
 }
 .footer{
     padding-top: px;
