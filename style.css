@@ -79,8 +79,7 @@ span{
 #about{
     background-color: #212121;
     height: 100%;
-    padding:145px 80px 80px 80px;
-    
+    padding:145px 80px 50px 80px;
 }
 
 img.about-main{
@@ -127,10 +126,33 @@ img.about-main{
     transform: translateY(50%);
     border: 5px solid #969696;
 }
-/* project-section */
-#service{
+/* skills-sction */
+#skills{
     background-color: #212121;
-    height: 580px;
+    height: 100%;
+    padding: 2px 80px 80px 80px;
+    text-align: center;
+}
+.skills-heading{
+    text-align: left;
+}
+
+.progress-bars{
+    display: flex;
+}
+#myprogress{
+    width: 100%;
+    background-color: grey;
+}
+#mybar{
+    width: 30%;
+    height: 30px;
+    background-color: #00ffbb;
+}
+/* project-section */
+#project{
+    background-color: #212121;
+    height: 100%;
     padding:100px 80px 550px 80px;
     text-align: center;
 }
@@ -196,15 +218,18 @@ img.about-main{
     padding-top: 10px;
 }
 .footer{
-    padding-top: px;
-    padding-bottom: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.932);
 }
+
 @media only screen and (max-width:300px){
     body{
         background-color: red;
     }
+    
 }
 @media only screen and (min-width:300px) and (max-width:500px){
     body{
@@ -216,3 +241,8 @@ img.about-main{
         background-color: green;
     }
 }
+
+
+
+
+
